@@ -1,0 +1,36 @@
+/* --- input phaceholder 颜色修改 --- */
+.phcolor {
+  color: #999;
+}
+
+/* --- checkbox 样式修改 --- */
+/*checkbox 选项框大小  */
+checkbox .wx-checkbox-input {
+  width: 22rpx;
+  height: 22rpx;
+  border: 1rpx solid #999999;
+  border-radius: 2rpx;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: -6.5rpx;
+}
+
+/*checkbox选中后样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  background: #5eccae;
+  border: 0;
+}
+
+/*checkbox选中后图标样式  */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  width: 22rpx;
+  height: 22rpx;
+  line-height: 22rpx;
+  text-align: center;
+  font-size: 16rpx;
+  color: #fff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

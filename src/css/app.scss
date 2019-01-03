@@ -1,0 +1,24 @@
+@import './base.css';
+@import './calc.scss';
+
+page {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+view,
+text,
+button,
+input {
+  font-family: PingFangSC-Regular;
+  box-sizing: border-box;
+}
+image {
+  vertical-align: middle;
+}
+
+.scroll-view {
+  white-space: nowrap;
+  overflow-x: scroll;
+}

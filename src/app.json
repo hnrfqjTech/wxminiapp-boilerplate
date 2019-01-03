@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "config": {
+        "navigationBarTitleText": "主页",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "config": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/pkg/list/index",
+      "root": "pages/pkg",
+      "subPackage": true,
+      "config": {
+        "navigationBarTitleText": "业务A中的列表页 - 分包模式",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#5EABFC",
+    "backgroundColor": "#fff",
+    "boxShadow": "0 0 10px 0 rgba(147,147,147,0.34)",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/assets/menuicon02@2x.png",
+        "selectedIconPath": "static/assets/menuicon01@2x.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/assets/menuicon08@2x.png",
+        "selectedIconPath": "static/assets/menuicon07@2x.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTitleText": "wxminiapp-boilerplate",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light"
+  }
+}

@@ -1,0 +1,4 @@
+build/*.js
+config/*.js
+src/app.json
+src/*

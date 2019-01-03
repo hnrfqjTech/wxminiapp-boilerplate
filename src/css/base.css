@@ -1,0 +1,78 @@
+.flex-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-col1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.touts-flex {
+  display: flex;
+}
+
+.touts-flex_wrap {
+  flex-wrap: wrap;
+}
+
+.touts-flex_flow {
+  flex-flow: column;
+}
+
+.touts-align_end {
+  align-items: flex-end;
+}
+
+.touts-align_start {
+  align-items: flex-start;
+}
+
+.touts-align_center {
+  align-items: center;
+}
+
+.touts-justify_end {
+  justify-content: flex-end;
+}
+
+.touts-justify_between {
+  justify-content: space-between;
+}
+
+.touts-justify_center {
+  justify-content: center;
+}
+
+.touts-userinfo {
+  display: flex;
+}
+
+.touts-userinfo-avatar {
+  border-radius: 50%;
+  border: 1rpx solid #efefef;
+}
+
+.touts-text_left {
+  text-align: left;
+}
+
+.touts-text_center {
+  text-align: center;
+}
+
+.touts-text_right {
+  text-align: right;
+}
+
+.arrayRight {
+  width: 28rpx;
+  height: 28rpx;
+}
+.experts_consult {
+  position: absolute;
+  bottom: 32rpx;
+  left: 50%;
+  transform: translateX(-50%);
+}
