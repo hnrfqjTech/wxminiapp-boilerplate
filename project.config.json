@@ -11,7 +11,7 @@
 	},
 	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
-	"appid": "wxfb845de2dec70402",
+	"appid": "",
 	"projectname": "wxminiapp-boilerplate",
 	"libVersion": "1.0.0",
 	"condition": {
