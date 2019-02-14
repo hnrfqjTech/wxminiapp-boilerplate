@@ -1,13 +1,13 @@
 {
   "name": "wxminiapp-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "微信小程序",
   "author": "bigang.ybg <yongbigang@hnrfqj.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js",
+    "dev": "cross-env CLIENT_ENV='dev' node build/dev-server.js",
+    "build:test": "cross-env CLIENT_ENV='test' node build/build.js",
+    "build": "cross-env CLIENT_ENV='prod' node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "cross-env": "^3.2.4",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^7.1.1",
