@@ -28,9 +28,18 @@ var login = {
               Vue.prototype.$http
                 .post(url, data)
                 .then(res => {
+                  wx.setStorageSync('token', res.data.data.token);
                   wx.setStorageSync('openId', res.data.data.openId);
-                  wx.setStorageSync('userId', res.data.data.id);
+                  wx.setStorageSync('userId', res.data.data.userId);
                   wx.setStorageSync('userName', res.data.data.nickName);
+                  wx.setStorageSync('phoneNumber', res.data.data.phonenumber);
+
+                  // Vue.prototype.$http.interceptors.request.use((config, promise) => {
+                  //   //给所有请求添加自定义header
+                  //   config.headers["Authorization"] = res.data.data.token;
+                  //   return config;
+                  // });
+
                   callback(useRes.userInfo);
                 })
                 .catch(err => {

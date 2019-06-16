@@ -12,7 +12,7 @@
 </template>
 
 <script>
-  import customer from "@/components/customer";
+  import customer from "@hnrfqj/minipro-ui/packages/customer";
   import { postData } from '@/api';
   export default {
     components: {

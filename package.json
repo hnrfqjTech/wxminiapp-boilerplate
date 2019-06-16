@@ -1,6 +1,6 @@
 {
   "name": "wxminiapp-boilerplate",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "微信小程序",
   "author": "bigang.ybg <yongbigang@hnrfqj.com>",
   "private": true,
@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "@hnrfqj/minipro-ui": "^1.0.3",
     "dayjs": "^1.7.7",
     "flyio": "^0.6.4",
     "mp-weui": "^1.0.4",
